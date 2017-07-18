@@ -16,7 +16,7 @@ $domain="masociete.local"
 ###############################################################################################
 
 ### ELEMENTS FENETRES
-$host.ui.RawUI.WindowTitle = "Connexion d'une BAL masquée - " + $version
+$host.ui.RawUI.WindowTitle = "Connexion d'une BAL masquee - " + $version
 $pshost = Get-Host; 
 $pswindow = $pshost.ui.rawui
 $newsize = $pswindow.buffersize
